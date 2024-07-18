@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+            <nav class="flex items-center justify-between">
+
+                <div class="left flex items-center">
+
+                    <div class="logo">
+                        <img class="gklogo" src="images/gklogo.png">
+                    </div>
+
+                    <div>
+                        <a href="#aboutme">ABOUT</a>
+                        <a href="#portfolio">PROJECTS</a>
+                    </div>
+
+                </div>
+                <div class="right">
+                    <button class="btn btn-primary"><a href="#contact">CONTACT</a></button>
+                </div>
+            </nav>
+            <div class="author flex items-center justify-between">
+                <div class="left flex-1 justify-center">
+                    <img src="images/goutham.png">
+
+                </div>
+                <div class="right flex-1">
+                    <h6>Goutham Krishna</h6>
+                    <h1>
+                        I'm a Web <span>Developer. . . .</span>
+                    </h1>
+                    <p>
+                        Hi, I'm a passionate learner with expertise in Frontend/UI-UX Design. I thrive on creating innovative solutions and delivering exceptional results. Welcome to my portfolio!
+                    </p>
+                    <div>
+                        <button class="btn-2 btn-secondary"><a href="files/Resume.pdf" download >DOWNLOAD RESUME</a></button>
+                    </div>
+                    
+                </div>
+            </div>
+
+
+        </div>
+
+        </header>
+
+        <section class="aboutme" id="aboutme">
+            <div class="container flex items-center">
+                <div class="flex-1">
+                    <img src="images/me.jpg">
+                </div>
+                <div class="flex-1">
+                    <h1>About <span>Me</span></h1>
+                    <h3>Hey! How are you doing?</h3>
+                    <p>A passionate web developer specializing in creating intuitive and engaging web applications. With Knowledge in HTML, CSS, and ReactJS, I bring designs to life while ensuring seamless user experiences.  My background in Python and C enhances my problem-solving skills and broadens my development capabilities. Let’s build something amazing together!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Website Interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>Programming Languages</span><br>Python, C, Java</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>May 2023 - June 2023</span><br>Full Stack Intern at ICT Academy</li>
+                            <li><span>May 2023</span><br>Flutter Intern at TechbyHeart Pvt.Ltd</li>
+                            <li><span>June 2024 - Present</span><br>Web Developer Intern at CodSoft</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - Present</span><br>B.Tech in CSE at Christ College of Engineering, Irinjalakuda</li>
+                            <li><span>2019 - 2021</span><br>CBSE 12th at Bharatiya Vidya Bhavans Vidya Mandir, Poochatty</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My <span>Projects</span></h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/pollit.jpg">
+                        <div class="layer">
+                            <h3>Poll'IT - A Polling App</h3>
+                            <p>This is a web app that helps in creating polls according to your choice and evaluate the results accordingly.</p>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/expertia.jpg">
+                        <div class="layer">
+                            <h3>Expertia - Where Expertise meets Experience</h3>
+                            <p>This Website fosters the relationship between the retired professionals and the working professionals by helping them provide guidance to the youth in their area of expertise.</p>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/greenhaven.jpg">
+                        <div class="layer">
+                            <h3>GreenHaven - Building a Greener Tomorrow</h3>
+                            <p>This web application acts as a ground for searching various sustainable home designs for purchase or for sale, thereby ensuring a greener environment.</p>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/resumepage.jpg">
+                        <div class="layer">
+                            <h3>AutoRes - An Automated Resume Builder</h3>
+                            <p>This collaborative approach puts forth a web app that produces tailormade custom resumes, showcasing the skills of the users.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <h1>Contact <span>Me</span></h1>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <img src="images/smartphone-call.png">
+                    <h2>Call Me On</h2>
+                    <h6>+917306358797</h6>
+                </div>
+                <div class="card">
+                    <img src="images/mail.png">
+                    <h2>Email Me At</h2>
+                    <h6>gouthamk490@gmail.com</h6>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <img class="footerlogo" src="images/gklogo.png">
+            <div class="footer-socials">
+                <a href="#"><img src="images/insta-svgrepo-com.svg"></a>
+                <a href="https://www.linkedin.com/in/goutham-krishna490/"><img src="images/linkedin-round-svgrepo-com.svg"></a>
+            </div>
+            <div class="copyright">
+                © 2024 GK. All rights reserved.
+            </div>
+        </footer>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");     
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");     
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    </body>
+</html>
